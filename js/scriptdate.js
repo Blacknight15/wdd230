@@ -4,11 +4,10 @@ let year = curDate.getFullYear()
 let modYear = modDate.getFullYear()
 let modMonth = modDate.getMonth()
 let modDay = modDate.getDate()
-let modWkDay = modDate.getDay()
 let modHrs = modDate.getHours()
 let modMin = modDate.getMinutes()
 let modSec = modDate.getSeconds()
 
 
-document.getElementById("dateMod").innerHTML = `Last Updated: ${modMonth}/${modDay}/${modYear} ${modHrs}:${modMin}:${modSec}`;
+document.getElementById("dateMod").innerHTML = `Last Updated: ${modMonth+1}/${modDay}/${modYear} ${modHrs}:${modMin}:${modSec}`;
 document.getElementById("year").innerText = year;
